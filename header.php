@@ -22,14 +22,27 @@
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-	
+
 	<?php wp_head(); // необходимо для работы плагинов и функционала ?>
 </head>
 <body <?php body_class(); // все классы для body ?>>
 	<header>
-		<div class="container">
+	<!-- шапка -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-4">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" class="logo-img">
+			</div>
+			<div class="col-md-4">test2</div>
+			<div class="col-md-4">test3</div>
+		</div>
+	</div>
+	<!-- \шапка -->
+
+	<!-- top menu -->
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-12">
+				<!-- <div class="col-md-12"> -->
 					<nav class="navbar navbar-default">
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topnav" aria-expanded="false">
@@ -46,13 +59,13 @@
 						  		'menu_id' => 'top-nav-ul', // id для ul
 						  		'items_wrap' => '<ul id="%1$s" class="nav navbar-nav %2$s">%3$s</ul>',
 								'menu_class' => 'top-menu', // класс для ul, первые 2 обязательны
-						  		'walker' => new bootstrap_menu(true) // верхнее меню выводится по разметке бутсрапа, см класс в functions.php, если по наведению субменю не раскрывать то передайте false		  		
+						  		'walker' => new bootstrap_menu(true) // верхнее меню выводится по разметке бутсрапа, см класс в functions.php, если по наведению субменю не раскрывать то передайте false
 					  			);
 								wp_nav_menu($args); // выводим верхнее меню
 							?>
 						</div>
 					</nav>
-				</div>
+				<!-- </div> -->
 			</div>
 		</div>
 	</header>
