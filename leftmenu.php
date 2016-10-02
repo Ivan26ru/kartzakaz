@@ -5,5 +5,8 @@
  * @subpackage your-clean-template-3
  */
 ?>
+<div class="col-md-2">
+	<h1>testleft</h1>
+</div>
 
-<h1>testleft</h1>
+<div class="col-md-10">

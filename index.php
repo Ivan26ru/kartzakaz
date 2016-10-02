@@ -8,10 +8,7 @@ get_header(); // подключаем header.php ?>
 <section>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-2">
 				<?php get_template_part( 'leftmenu' )?>
-			</div>
-			<div class="col-md-10<?php //content_class_by_sidebar(); // функция подставит класс в зависимости от того есть ли сайдбар, лежит в functions.php ?>">
 				<h1><?php // заголовок архивов
 					if (is_day()) : printf('Daily Archives: %s', get_the_date()); // если по дням
 					elseif (is_month()) : printf('Monthly Archives: %s', get_the_date('F Y')); // если по месяцам
