@@ -84,7 +84,7 @@ if (!function_exists('pagination')) { // если ф-я уже есть в до�
 		    echo '<ul class="pagination">';
 		    foreach ( $links as $link ) {
 		    	if ( strpos( $link, 'current' ) !== false ) echo "<li class='active'>$link</li>"; // если это активная страница
-		        else echo "<li>$link</li>"; 
+		        else echo "<li>$link</li>";
 		    }
 		   	echo '</ul>';
 		 }
@@ -108,11 +108,12 @@ if (!function_exists('add_styles')) { // если ф-я уже есть в до�
 	    if(is_admin()) return false; // если мы в админке - ничего не делаем
 	    wp_enqueue_style( 'bs', get_template_directory_uri().'/css/bootstrap.min.css' ); // бутстрап
 		wp_enqueue_style( 'main', get_template_directory_uri().'/style.css' ); // основные стили шаблона
+		wp_enqueue_style( 'main-css', get_template_directory_uri().'/my-style.css' ); // мои стили шаблона
 	}
 }
 
 if (!class_exists('bootstrap_menu')) {
-	class bootstrap_menu extends Walker_Nav_Menu { // внутри вывод 
+	class bootstrap_menu extends Walker_Nav_Menu { // внутри вывод
 		private $open_submenu_on_hover; // параметр который будет определять раскрывать субменю при наведении или оставить по клику как в стандартном бутстрапе
 
 		function __construct($open_submenu_on_hover = true) { // в конструкторе
