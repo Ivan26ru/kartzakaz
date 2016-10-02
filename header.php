@@ -28,23 +28,43 @@
 <body <?php body_class(); // все классы для body ?>>
 	<header>
 	<!-- шапка -->
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" class="logo-img">
+			<a href="<?php echo site_url(); ?>">
+				<!-- <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" class="logo-img"> -->
+				<img src="<?php echo get_template_directory_uri(); ?>/img/neon-logo.png" class="logo-img2">
+				<!-- <span class="site-name"><?php bloginfo('name'); ?></span> -->
+			</a>
 			</div>
-			<div class="col-md-4">test2</div>
-			<div class="col-md-4">test3</div>
+
+			<div class="col-md-4">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/header/tel.png" class="tel-img">
+				<a href="tel:+79187959105" class="tel"><span class="glyphicon glyphicon-earphone"></span>+7 918 795 91 05</a><br>
+				<a href="mailto:info@kartzakaz.ru">info@kartzakaz.ru</a>
+				<p>покупка картриджей<br>
+				оптом и в розницу</p>
+			</div>
+			<div class="col-md-4">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/header/time-work.png" class="tel-img">
+				<p>График работы:</p>
+				<p><span class="label label-success">пн-пт:8:00-20:00</span><br>
+				<span class="label label-danger">сб-вс:8:00-20:00</span></p>
+			</div>
 		</div>
 	</div>
 	<!-- \шапка -->
 
 	<!-- top menu -->
-		<div class="container-fluid">
+		<div class="container">
 			<div class="row">
 				<!-- <div class="col-md-12"> -->
 					<nav class="navbar navbar-default">
 						<div class="navbar-header">
+						<a class="navbar-brand site-name-menu" href="<?php echo site_url(); ?>">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/neon-logo-mini.png" class="logo-img-mini">
+							<!-- <?php bloginfo('name'); ?> -->
+						</a>
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topnav" aria-expanded="false">
 								<span class="sr-only">Меню</span>
 								<span class="icon-bar"></span>

@@ -1,3 +1,31 @@
-.logo-img{
-	width: 200px;
+/*шапка*/
+
+/* отступ сверху */
+header{
+	padding-top:10px;
+}
+
+/*размер картинок в шапке*/
+header img{
+	width: 150px;
+}
+
+.logo-img2{
+	width:100%;
+}
+
+.logo-img-mini{
+	width:150px;
+	margin-top:-10px;
+}
+
+.tel{
+	font-size:20px;
+}
+
+/*картинка телефона*/
+.tel-img{
+	width:100px;
+	float:left;
+
 }
