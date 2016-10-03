@@ -15,11 +15,11 @@
 	</div> -->
 	<div class="row">
 		<?php if ( has_post_thumbnail() ) { ?>
-			<div class="col-sm-3">
+			<!-- <div class="col-sm-3">
 				<a href="<?php the_permalink(); ?>" class="thumbnail">
 					<?php the_post_thumbnail(); ?>
 				</a>
-			</div>
+			</div> -->
 		<?php } ?>
 		<div class="<?php if ( has_post_thumbnail() ) { ?>col-sm-9<?php } else { ?>col-sm-12<?php } // разные классы в зависимости есть ли миниатюра ?>">
 			<?php the_content(''); // пост превью, до more ?>

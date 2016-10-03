@@ -9,7 +9,7 @@ get_header(); // подключаем header.php ?>
 	<div class="container">
 		<div class="row">
 				<?php get_template_part( 'leftmenu' )?>
-				<h1><?php // заголовок архивов
+				<h1 class="test-center"><?php // заголовок архивов
 					if (is_day()) : printf('Daily Archives: %s', get_the_date()); // если по дням
 					elseif (is_month()) : printf('Monthly Archives: %s', get_the_date('F Y')); // если по месяцам
 					elseif (is_year()) : printf('Yearly Archives: %s', get_the_date('Y')); // если по годам
