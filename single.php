@@ -18,19 +18,19 @@ get_header(); // подключаем header.php ?>
 
 						<dl class="dl-horizontal">
 
-  							<dt>Цена</dt>
+  							<dt>Цена:</dt>
   							<dd><?php echo get_field('cena'); //цена?> руб.</dd>
 
-  							<dt>Принтер</dt>
+  							<dt>Принтер:</dt>
   							<dd><?php echo get_field('printer'); //цена?></dd>
 
-  							<dt>Артикул</dt>
+  							<dt>Артикул:</dt>
   							<dd><?php echo get_field('articul'); //цена?></dd>
 
-  							<dt>Производитель</dt>
+  							<dt>Производитель:</dt>
   							<dd><?php echo get_field('made_in'); //цена?></dd>
 
-  							<dt>Тип картриджа</dt>
+  							<dt>Тип картриджа:</dt>
   							<dd><?php echo get_field('tip'); //цена?></dd>
 						</dl>
 						<div class="meta">

@@ -1,4 +1,7 @@
 /*шапка*/
+h1,h2,h3,h4,h5,h6{
+    margin-top: 0;
+}
 
 /* отступ сверху */
 header{
@@ -28,4 +31,24 @@ header img{
 	width:100px;
 	float:left;
 
+}
+
+
+/*карусель*/
+.carousel h3 {
+    display: inline-block;
+    padding: 0;
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-shadow: -0 -2px 0 #9E9E9E, 0 -2px 0 #9E9E9E, -0 2px 0 #9E9E9E, 0 2px 0 #9E9E9E, -2px -0 0 #9E9E9E, 2px -0 0 #9E9E9E, -2px 0 0 #9E9E9E, 2px 0 0 #9E9E9E, -1px -2px 0 #9E9E9E, 1px -2px 0 #9E9E9E, -1px 2px 0 #9E9E9E, 1px 2px 0 #9E9E9E, -2px -1px 0 #9E9E9E, 2px -1px 0 #9E9E9E, -2px 1px 0 #9E9E9E, 2px 1px 0 #9E9E9E, -2px -2px 0 #9E9E9E, 2px -2px 0 #9E9E9E, -2px 2px 0 #9E9E9E, 2px 2px 0 #9E9E9E, -2px -2px 0 #9E9E9E, 2px -2px 0 #9E9E9E, -2px 2px 0 #9E9E9E, 2px 2px 0 #9E9E9E;
+}
+
+.carousel p {
+    padding: 4px;
+    font-size: 23px;
+    line-height: 28px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }

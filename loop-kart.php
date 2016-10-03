@@ -12,7 +12,7 @@
 
 
 			<tr>
-				<td><?php echo ++$i; //номер попорядку?></td>
+				<!-- <td><?php echo $n_post; //номер попорядку?></td> -->
 				<td><a href="<?php the_permalink(); //ссылка на пост?>"><?php the_title(); //имя поста?></a></td>
 				<td><?php echo get_field('printer'); //принтер?></td>
 				<td><?php echo get_field('cena'); //цена?> руб.</td>

@@ -48,7 +48,7 @@
 					<a href="mailto:info@kartzakaz.ru">
 						<span class="glyphicon glyphicon-envelope"></span>
 						info@kartzakaz.ru</a>
-					<p>покупка картриджей<br>
+					<p><b>покупка картриджей</b><br>
 					оптом и в розницу</p>
 				</div>
 			</div>
@@ -65,7 +65,7 @@
 
 	<!-- top menu -->
 		<div class="container">
-			<div class="row">
+			<!-- <div class="row"> -->
 				<!-- <div class="col-md-12"> -->
 					<nav class="navbar navbar-default">
 						<div class="navbar-header">
@@ -101,6 +101,10 @@
 						</div>
 					</nav>
 				<!-- </div> -->
-			</div>
+			<!-- </div> -->
 		</div>
 	</header>
+
+	<?php if( is_front_page() ) { //Если главная страница, отобразить карусель
+	get_template_part( 'carousel' );}
+?>

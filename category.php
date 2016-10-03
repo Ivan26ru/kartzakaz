@@ -13,12 +13,15 @@ get_header(); // подключаем header.php ?>
 <!-- таблица для вывода списка картриджей -->
 				<table class="table table-striped table-hover">
 					<tr>
-						<th>#</th>
+						<!-- <th>#</th> -->
 						<th>Название</th>
 						<th>Принтер</th>
 						<th>Цена</th>
 					</tr>
-				<?php if (have_posts()) : while (have_posts()) : the_post(); // если посты есть - запускаем цикл wp ?>
+					<?php $n_post=1 ?>
+				<?php if (have_posts()) : while (have_posts()) : the_post(); // если посты есть - запускаем цикл wp
+					$n_post++;//счетчик
+				?>
 					<?php get_template_part('loop-kart'); // для отображения каждой записи берем шаблон loop.php ?>
 				<?php endwhile; // конец цикла
 				else: echo '<p>Нет записей.</p>'; endif; // если записей нет, напишим "простите" ?>
