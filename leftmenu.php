@@ -5,7 +5,9 @@
  * @subpackage your-clean-template-3
  */
 ?>
-<div class="col-md-2">
+<div class="col-md-3">
+
+<!-- <div class="btn-group-vertical"> -->
 <?php
 $args = array(
 //'child_of' => 0,// вывод всего дерева дочерних элементов
@@ -20,16 +22,17 @@ $args = array(
 );
 
 $catlist = get_categories($args); // получаем список рубрик
-echo '<ul class="menu forplates list-unstyled width-js-2">';
+
+
 foreach($catlist as $categories_item){//перебор рубрик
 
 
 
  // выводим название рубрики
- print '<li><a href="'. get_term_link($categories_item) .'">' . $categories_item->cat_name . '</a></li>';
+ print '<a class="btn btn-success btn-lg btn-block" href="'. get_term_link($categories_item) .'">' . $categories_item->cat_name . '</a>';
  }
-echo '</ul>';
  ?>
+<!-- </div> -->
 </div>
 
-<div class="col-md-10">
+<div class="col-md-9">
