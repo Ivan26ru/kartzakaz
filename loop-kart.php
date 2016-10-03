@@ -6,33 +6,18 @@
  */
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>> <?php // контэйнер с классами и id ?>
-	<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2> <?php // заголовок поста и ссылка на его полное отображение (single.php) ?>
-	<?php //echo get_post_meta('cena'); ?>
-	<?php
-		echo get_field('cena');
-		echo get_field('printer');
-		?>
+	<!-- <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2> <?php // заголовок поста и ссылка на его полное отображение (single.php) ?> -->
 
-		<table class="table table-striped table-hover">
+
+
+
 			<tr>
-				<th>#</th>
-				<th>Название</th>
-				<th>Принтер</th>
-				<th>Цена</th>
+				<td><?php echo ++$i; //номер попорядку?></td>
+				<td><a href="<?php the_permalink(); //ссылка на пост?>"><?php the_title(); //имя поста?></a></td>
+				<td><?php echo get_field('printer'); //принтер?></td>
+				<td><?php echo get_field('cena'); //цена?> руб.</td>
 			</tr>
-			<tr>
-				<td>#</td>
-				<td>Название</td>
-				<td>Принтер</td>
-				<td>Цена</td>
-			</tr>
-			<tr>
-				<td>#</td>
-				<td>Название</td>
-				<td>Принтер</td>
-				<td>Цена</td>
-			</tr>
-		</table>
+
 
 	<div class="row">
 		<?php if ( has_post_thumbnail() ) { ?>
