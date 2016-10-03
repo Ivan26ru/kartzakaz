@@ -13,8 +13,26 @@ get_header(); // подключаем header.php ?>
 					<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>> <?php // контэйнер с классами и id ?>
 						<h1 class="text-center"><?php the_title(); // заголовок поста ?></h1>
 						<p class="text-center">
-						<?php the_post_thumbnail(); ?>
+						<?php the_post_thumbnail();//миниатюра ?>
 						</p>
+
+						<dl class="dl-horizontal">
+
+  							<dt>Цена</dt>
+  							<dd><?php echo get_field('cena'); //цена?> руб.</dd>
+
+  							<dt>Принтер</dt>
+  							<dd><?php echo get_field('printer'); //цена?></dd>
+
+  							<dt>Артикул</dt>
+  							<dd><?php echo get_field('articul'); //цена?></dd>
+
+  							<dt>Производитель</dt>
+  							<dd><?php echo get_field('made_in'); //цена?></dd>
+
+  							<dt>Тип картриджа</dt>
+  							<dd><?php echo get_field('tip'); //цена?></dd>
+						</dl>
 						<div class="meta">
 							<p>Категории: <?php the_category(',') ?></p> <?php // ссылки на категории в которых опубликован пост, через зпт ?>
 						</div>
