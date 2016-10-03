@@ -39,11 +39,19 @@
 			</div>
 
 			<div class="col-md-4">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/header/tel.png" class="tel-img">
-				<a href="tel:+79187959105" class="tel"><span class="glyphicon glyphicon-earphone"></span>+7 918 795 91 05</a><br>
-				<a href="mailto:info@kartzakaz.ru">info@kartzakaz.ru</a>
-				<p>покупка картриджей<br>
-				оптом и в розницу</p>
+			<div class="row">
+				<div class="col-md-4">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/header/tel.png" class="tel-img">
+				</div>
+				<div class="col-md-8">
+					<a href="tel:+79187959105" class="tel"><span class="glyphicon glyphicon-earphone"></span>7(918)795-91-05</a><br>
+					<a href="mailto:info@kartzakaz.ru">
+						<span class="glyphicon glyphicon-envelope"></span>
+						info@kartzakaz.ru</a>
+					<p>покупка картриджей<br>
+					оптом и в розницу</p>
+				</div>
+			</div>
 			</div>
 			<div class="col-md-4">
 				<img src="<?php echo get_template_directory_uri(); ?>/img/header/time-work.png" class="tel-img">
