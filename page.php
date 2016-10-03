@@ -11,7 +11,7 @@ get_header(); // подключаем header.php ?>
 				<?php get_template_part( 'leftmenu' )?>
 				<?php if ( have_posts() ) while ( have_posts() ) : the_post(); // старт цикла ?>
 					<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>> <?php // контэйнер с классами и id ?>
-						<h1><?php the_title(); // заголовок поста ?></h1>
+						<h1 class="text-center"><?php the_title(); // заголовок поста ?></h1>
 						<?php the_content(); // контент ?>
 					</article>
 				<?php endwhile; // конец цикла ?>
