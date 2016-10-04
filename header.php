@@ -70,8 +70,9 @@
 					<nav class="navbar navbar-default">
 						<div class="navbar-header">
 						<a class="navbar-brand site-name-menu" href="<?php echo site_url(); ?>">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/neon-logo-mini.png" class="logo-img-mini">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/neon-logo-mini.png" class="logo-img-mini dn">
 							<!-- <?php bloginfo('name'); ?> -->
+							<!-- Скупка картриджей -->
 						</a>
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topnav" aria-expanded="false">
 								<span class="sr-only">Меню</span>
