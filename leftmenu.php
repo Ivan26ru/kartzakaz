@@ -29,7 +29,7 @@ foreach($catlist as $categories_item){//перебор рубрик
 
 
  // выводим название рубрики
- print '<a class="btn btn-success btn-lg btn-block" href="'. get_term_link($categories_item) .'">' . $categories_item->cat_name . '</a>';
+ print '<a class="btn btn-default btn-lg btn-block" href="'. get_term_link($categories_item) .'">' . $categories_item->cat_name . '</a>';
  }
  ?>
 <!-- </div> -->
