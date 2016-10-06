@@ -27,6 +27,12 @@ header {
     padding-top: 10px;
 }
 
+/*темный фон для шапки*/
+header,
+.navbar{
+        background-color: #585858;
+        border:none;
+}
 
 /*размер картинок в шапке*/
 
@@ -165,15 +171,12 @@ background-color: gold;
 .navbar-inverse .top-menu li.active a,
 .navbar-inverse .top-menu li.active a:hover,
 .navbar-inverse .top-menu li.active a:focus{
+background-color: green;
+color: gold;
     -webkit-animation: swing 1s ease;
     animation: swing 1s ease;
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
-/*background-color: #f7ff00;*/
-/*border-radius:50%;*/
-background-color: green;
-color: gold;
-
 }
 
 /*левое меню*/
@@ -183,8 +186,11 @@ transition:all 0.5s ease;
 
 .leftmenu a.btn.btn-success:hover,
 .leftmenu a.btn.btn-success:focus{
-/*border-radius:50%;*/
-    -webkit-transform: rotateZ(-30deg);
+	    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+/*    -webkit-transform: rotateZ(-30deg);
     -ms-transform: rotateZ(-30deg);
-    transform: rotateZ(-30deg);
+    transform: rotateZ(-30deg);*/
 }
