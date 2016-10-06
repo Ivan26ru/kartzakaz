@@ -28,7 +28,7 @@
 <body <?php body_class(); // все классы для body ?>>
 	<header>
 	<!-- шапка -->
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-4">
 			<a href="<?php echo site_url(); ?>">
@@ -65,7 +65,7 @@
 	<!-- \шапка -->
 
 	<!-- top menu -->
-		<div class="container">
+		<!-- <div class="container-fluid"> -->
 			<!-- <div class="row"> -->
 				<!-- <div class="col-md-12"> -->
 					<!-- <nav class="navbar navbar-default"> -->
@@ -105,7 +105,7 @@
 					</nav>
 				<!-- </div> -->
 			<!-- </div> -->
-		</div>
+		<!-- </div> -->
 	</header>
 
 	<?php if( is_front_page() ) { //Если главная страница, отобразить карусель
