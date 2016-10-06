@@ -192,9 +192,9 @@ transition:all 0.5s ease;
 }
 
 /*шатающаяся кнопка*/
-.leftmenu a.btn.btn-success:hover,
-{
-	    -webkit-animation: swing 1s ease;
+.leftmenu a.btn.btn-success:focus,
+.leftmenu a.btn.btn-success:hover{
+    -webkit-animation: swing 1s ease;
     animation: swing 1s ease;
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
