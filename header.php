@@ -69,11 +69,10 @@
 			<!-- <div class="row"> -->
 				<!-- <div class="col-md-12"> -->
 					<!-- <nav class="navbar navbar-default"> -->
-					<nav class="navbar navbar-inverse">
+					<nav class="navbar navbar-inverse" id="top-navbar">
 						<div class="navbar-header">
 						<a class="navbar-brand site-name-menu" href="<?php echo site_url(); ?>">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/neon-logo-mini.png" class="logo-img-mini dn">
-							<!-- <?php bloginfo('name'); ?> -->
+				<img src="<?php echo get_template_directory_uri(); ?>/img/neon-logo-mini.png" class="logo-img-mini dn" id="menu-top-name-siti">
 							<!-- Скупка картриджей -->
 						</a>
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topnav" aria-expanded="false">
@@ -106,6 +105,7 @@
 				<!-- </div> -->
 			<!-- </div> -->
 		<!-- </div> -->
+		<!-- container -->
 	</header>
 
 	<?php if( is_front_page() ) { //Если главная страница, отобразить карусель
