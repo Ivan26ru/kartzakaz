@@ -34,6 +34,11 @@ header,
         border:none;
 }
 
+/*Затемнение и прозрачность*/
+.navbar{
+    background-color:rgba(0,0,0,.3);
+}
+
 /*размер картинок в шапке*/
 
 header img {
