@@ -9,10 +9,13 @@ h6 {
     margin-top: 0;
 }
 
+
 /*размер 100%*/
-.w100{
+
+.w100 {
     width: 100%;
 }
+
 
 /*скрыть элемент*/
 
@@ -27,27 +30,41 @@ header {
     padding-top: 10px;
 }
 
+
 /*темный фон для шапки*/
+
 header,
-.navbar{
-        background-color: #585858;
-        border:none;
+.navbar {
+    background-color: #585858;
+    border: none;
 }
+
+
+/*отступ сверху номера телефонов и графика работы*/
+
+header .col-md-4:not(:first-child) {
+    margin-top: 40px;
+}
+
+
+/*оформление текста в шапке*/
+
+.header-div-text,
+.header-div-text a {
+    padding-top: 5px;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(175, 253, 85, 0.45);
+}
+
 
 /*Затемнение и прозрачность*/
-.navbar{
-    background-color:rgba(0,0,0,.3);
+
+.navbar {
+    background-color: rgba(0, 0, 0, .3);
 }
+
 
 /*размер картинок в шапке*/
-
-header img {
-    width: 150px;
-}
-
-.logo-img2 {
-    width: 100%;
-}
 
 .logo-img-mini {
     width: 150px;
@@ -92,118 +109,119 @@ header img {
 
 
 /*Кнопка в меню*/
+
 .navbar-inverse .top-menu li a {
-transition:all 0.5s ease;
-background-color: gold;
+    transition: all 0.5s ease;
+    background-color: gold;
 }
+
 
 /*активная кнопка*/
-.navbar-inverse .top-menu li.active a {
 
-}
+.navbar-inverse .top-menu li.active a {}
+
 
 /*необходимо для покачивания*/
-@-webkit-keyframes swing
-{
-    15%
-    {
+
+@-webkit-keyframes swing {
+    15% {
         -webkit-transform: translateX(5px);
         transform: translateX(5px);
     }
-    30%
-    {
-        -webkit-transform: translateX(-5px);
-       transform: translateX(-5px);
-    }
-    50%
-    {
-        -webkit-transform: translateX(3px);
-        transform: translateX(3px);
-    }
-    65%
-    {
-        -webkit-transform: translateX(-3px);
-        transform: translateX(-3px);
-    }
-    80%
-    {
-        -webkit-transform: translateX(2px);
-        transform: translateX(2px);
-    }
-    100%
-    {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-    }
-}
-@keyframes swing
-{
-    15%
-    {
-        -webkit-transform: translateX(5px);
-        transform: translateX(5px);
-    }
-    30%
-    {
+    30% {
         -webkit-transform: translateX(-5px);
         transform: translateX(-5px);
     }
-    50%
-    {
+    50% {
         -webkit-transform: translateX(3px);
         transform: translateX(3px);
     }
-    65%
-    {
+    65% {
         -webkit-transform: translateX(-3px);
         transform: translateX(-3px);
     }
-    80%
-    {
+    80% {
         -webkit-transform: translateX(2px);
         transform: translateX(2px);
     }
-    100%
-    {
+    100% {
         -webkit-transform: translateX(0);
         transform: translateX(0);
     }
 }
+
+@keyframes swing {
+    15% {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30% {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50% {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65% {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80% {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+
 /*Активная, наведение, фокус кнопки*/
 
+
 /*кнопка шатается и становится зеленой с золотым цветом букв*/
+
 .navbar-inverse .top-menu li a:hover,
 .navbar-inverse .top-menu li a:focus,
 .navbar-inverse .top-menu li.active a,
 .navbar-inverse .top-menu li.active a:hover,
-.navbar-inverse .top-menu li.active a:focus{
-background-color: green;
-color: gold;
+.navbar-inverse .top-menu li.active a:focus {
+    background-color: green;
+    color: gold;
     -webkit-animation: swing 1s ease;
     animation: swing 1s ease;
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
 }
+
 
 /*левое меню*/
+
+
 /*скорость анимации*/
-.leftmenu a.btn{
-transition:all 0.5s ease;
+
+.leftmenu a.btn {
+    transition: all 0.5s ease;
 }
 
+
 /*шатающаяся кнопка*/
+
 .leftmenu a.btn.btn-success:focus,
-.leftmenu a.btn.btn-success:hover{
+.leftmenu a.btn.btn-success:hover {
     -webkit-animation: swing 1s ease;
     animation: swing 1s ease;
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
-
 }
 
+
 /*Крутящаяся кнопка в фокусе*/
-.leftmenu a.btn.btn-success:focus{
-/*    -webkit-transform: rotateZ(360deg);
+
+.leftmenu a.btn.btn-success:focus {
+    /*    -webkit-transform: rotateZ(360deg);
     -ms-transform: rotateZ(360deg);
     transform: rotateZ(360deg);*/
 }

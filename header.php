@@ -33,32 +33,30 @@
 			<div class="col-md-4">
 			<a href="<?php echo site_url(); ?>">
 				<!-- <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" class="logo-img"> -->
-				<img src="<?php echo get_template_directory_uri(); ?>/img/neon-logo.png" class="logo-img2">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/neon-logo.png" class="w100">
 				<!-- <span class="site-name"><?php bloginfo('name'); ?></span> -->
 			</a>
 				<p class="text-center text-success">Скупка картриджей</p>
 			</div>
 
 			<div class="col-md-4">
-			<div class="row">
-				<div class="col-md-4">
 					<img src="<?php echo get_template_directory_uri(); ?>/img/header/tel.png" class="tel-img">
-				</div>
-				<div class="col-md-8">
-					<a href="tel:+79187959105" class="tel"><span class="glyphicon glyphicon-earphone"></span>7(918)795-91-05</a><br>
-					<a href="mailto:info@kartzakaz.ru">
-						<span class="glyphicon glyphicon-envelope"></span>
-						info@kartzakaz.ru</a>
-					<p><b>покупка картриджей</b><br>
-					оптом и в розницу</p>
-				</div>
+					<div class="header-div-text">
+						<a href="tel:+79187959105" class="tel"><span class="glyphicon glyphicon-earphone"></span>7(918)795-91-05</a><br>
+						<a href="mailto:info@kartzakaz.ru">
+							<span class="glyphicon glyphicon-envelope"></span>
+							info@kartzakaz.ru</a>
+						<p><b>покупка картриджей</b><br>
+					</div>
 			</div>
-			</div>
+
 			<div class="col-md-4">
 				<img src="<?php echo get_template_directory_uri(); ?>/img/header/time-work.png" class="tel-img">
-				<p>График работы:</p>
-				<p><span class="label label-success">пн-пт:8:00-20:00</span><br>
-				<span class="label label-danger">сб-вс:8:00-20:00</span></p>
+				<div class="header-div-text">
+					<p>График работы:</p>
+					<p><span class="label label-success">пн-пт:8:00-20:00</span><br>
+					<span class="label label-danger">сб-вс:8:00-20:00</span></p>
+				</div>
 			</div>
 		</div>
 	</div>
