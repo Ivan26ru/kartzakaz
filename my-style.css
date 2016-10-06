@@ -79,16 +79,84 @@ header img {
 
 /* цвет ссылок в верхнем меню*/
 
-// Кнопка в меню
+/*Кнопка в меню*/
 .navbar-inverse .top-menu li a {
+transition:all 0.3s ease;
+background-color: gold;
 }
 
-// активная кнопка
+/*активная кнопка*/
 .navbar-inverse .top-menu li.active a {
 
 }
 
-
+/*необходимо для покачивания*/
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
 /*Активная, наведение, фокус кнопки*/
 
 .navbar-inverse .top-menu li a:hover,
@@ -96,5 +164,9 @@ header img {
 .navbar-inverse .top-menu li.active a,
 .navbar-inverse .top-menu li.active a:hover,
 .navbar-inverse .top-menu li.active a:focus{
-
+background-color: #f7ff00;
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
 }
