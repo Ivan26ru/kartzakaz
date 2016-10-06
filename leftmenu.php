@@ -5,7 +5,7 @@
  * @subpackage your-clean-template-3
  */
 ?>
-<div class="col-md-3">
+<div class="col-md-3 leftmenu">
 
 <!-- <div class="btn-group-vertical"> -->
 <?php
