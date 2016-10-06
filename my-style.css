@@ -171,6 +171,7 @@ background-color: gold;
 }
 /*Активная, наведение, фокус кнопки*/
 
+/*кнопка шатается и становится зеленой с золотым цветом букв*/
 .navbar-inverse .top-menu li a:hover,
 .navbar-inverse .top-menu li a:focus,
 .navbar-inverse .top-menu li.active a,
@@ -185,17 +186,24 @@ color: gold;
 }
 
 /*левое меню*/
+/*скорость анимации*/
 .leftmenu a.btn{
 transition:all 0.5s ease;
 }
 
+/*шатающаяся кнопка*/
 .leftmenu a.btn.btn-success:hover,
-.leftmenu a.btn.btn-success:focus{
+{
 	    -webkit-animation: swing 1s ease;
     animation: swing 1s ease;
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
-/*    -webkit-transform: rotateZ(-30deg);
-    -ms-transform: rotateZ(-30deg);
-    transform: rotateZ(-30deg);*/
+
+}
+
+/*Крутящаяся кнопка в фокусе*/
+.leftmenu a.btn.btn-success:focus{
+/*    -webkit-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);*/
 }
