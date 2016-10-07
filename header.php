@@ -33,10 +33,10 @@
 			<div class="col-md-4">
 			<a href="<?php echo site_url(); ?>">
 				<!-- <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" class="logo-img"> -->
-				<img src="<?php echo get_template_directory_uri(); ?>/img/neon-logo.png" class="w100">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/neon-logo-2.png" class="w100">
 				<!-- <span class="site-name"><?php bloginfo('name'); ?></span> -->
 			</a>
-				<p class="text-center text-success">Скупка картриджей</p>
+				<!-- <p class="text-center text-success skupka">Скупка картриджей</p> -->
 			</div>
 
 			<div class="col-md-4">
@@ -54,8 +54,8 @@
 				<img src="<?php echo get_template_directory_uri(); ?>/img/header/time-work.png" class="tel-img">
 				<div class="header-div-text">
 					<p>График работы:</p>
-					<p><span class="label label-success">пн-пт:8:00-20:00</span><br>
-					<span class="label label-danger">сб-вс:8:00-20:00</span></p>
+					<p><span class="label label-success">пн-пт:9:00-19:00</span><br>
+					<span class="label label-danger">сб-вс:11:00-18:00</span></p>
 				</div>
 			</div>
 		</div>
@@ -70,7 +70,7 @@
 					<nav class="navbar navbar-inverse" id="top-navbar">
 						<div class="navbar-header">
 						<a class="navbar-brand site-name-menu" href="<?php echo site_url(); ?>">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/neon-logo-mini.png" class="logo-img-mini dn" id="menu-top-name-siti">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/neon-logo-mini-2.png" class="logo-img-mini dn" id="menu-top-name-siti">
 							<!-- Скупка картриджей -->
 						</a>
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topnav" aria-expanded="false">
