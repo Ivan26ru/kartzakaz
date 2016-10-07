@@ -112,7 +112,14 @@ header .col-md-4:not(:first-child) {
 
 .navbar-inverse .top-menu li a {
     transition: all 0.5s ease;
-    background-color: gold;
+    background:#3E3E3E;
+    color: #64d57a;
+    text-decoration: none;
+        /*font-weight: inherit;*/
+    /*font-style: inherit;*/
+    /*font-family: inherit;*/
+    border:1px solid;
+    /*border-radius:5px;*/
 }
 
 
@@ -188,8 +195,9 @@ header .col-md-4:not(:first-child) {
 .navbar-inverse .top-menu li.active a,
 .navbar-inverse .top-menu li.active a:hover,
 .navbar-inverse .top-menu li.active a:focus {
-    background-color: green;
-    color: gold;
+    color:white;
+    background-color: #64d57a;
+    border-color:#64d57a;
     -webkit-animation: swing 1s ease;
     animation: swing 1s ease;
     -webkit-animation-iteration-count: 1;
