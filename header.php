@@ -93,7 +93,7 @@
 							?>
 <!-- кнопки справа-->
 		                            <!-- добавил другую форму для поиска, чтоб с главной всегда искало и метод get -->
-                            <form class="navbar-form navbar-right my_search" method="get" role="search" action="<?php echo home_url( '/' ) ?>" >
+                            <form class="navbar-form navbar-right" id="search_string" method="get" role="search" action="<?php echo home_url( '/' ) ?>" >
                             <!-- сама форма поиска -->
                             <?php get_search_form() ?>
                             </form>
