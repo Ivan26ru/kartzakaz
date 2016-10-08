@@ -91,7 +91,13 @@
 					  			);
 								wp_nav_menu($args); // выводим верхнее меню
 							?>
-
+<!-- кнопки справа-->
+		                            <!-- добавил другую форму для поиска, чтоб с главной всегда искало и метод get -->
+                            <form class="navbar-form navbar-right my_search" method="get" role="search" action="<?php echo home_url( '/' ) ?>" >
+                            <!-- сама форма поиска -->
+                            <?php get_search_form() ?>
+                            </form>
+                            <!-- /кнопки справа -->
 						</div>
 					</nav>
 				<!-- </div> -->
@@ -100,16 +106,11 @@
 		<!-- container -->
 	</header>
 		<div class="container-fluid">
-		                            <!-- добавил другую форму для поиска, чтоб с главной всегда искало и метод get -->
-                            <form class="navbar-form navbar-right" method="get" role="search" action="<?php echo home_url( '/' ) ?>" >
-                            <!-- сама форма поиска -->
-                            <?php get_search_form() ?>
-                            </form>
-                            <!-- /кнопки справа -->
+
 	</div>
 
 	<div class="clearfix"></div>
-													                            <!-- кнопки справа-->
+
 
 	<?php if( is_front_page() ) { //Если главная страница, отобразить карусель
 	get_template_part( 'carousel' );}

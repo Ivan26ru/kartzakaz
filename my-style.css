@@ -237,3 +237,8 @@ header .col-md-4:not(:first-child) {
     -ms-transform: rotateZ(360deg);
     transform: rotateZ(360deg);*/
 }
+
+/*строка поиска*/
+.navbar-form .form-control{
+    width:150px;
+}
