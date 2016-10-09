@@ -6,9 +6,7 @@
  */
 ?>
 <!-- значки фирм принтеров -->
-<div class="container">
 <div class="b-category b-category_gal" tag="cat-list">
-
         <div class="category__item">
             <a href="<?php echo home_url( '/' ) ?>category/zakupka/brother/"><img src="<?php echo get_template_directory_uri(); ?>/img/list-item/brother.png" alt="Brother"></a>
         </div>
@@ -64,8 +62,5 @@
         <div class="category__item">
             <a href="<?php echo home_url( '/' ) ?>category/zakupka/konika-minolta/"><img src="<?php echo get_template_directory_uri(); ?>/img/list-item/konika.png" alt="KONIKA MINOLTA"></a>
         </div>
-
-    <div class="g-clear"></div>
+    <!-- <div class="g-clear"></div> -->
 </div>
-</div><!-- container -->
-<!-- /значки фирм принтеров -->
