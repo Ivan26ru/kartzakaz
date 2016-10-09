@@ -167,4 +167,17 @@ function meta_arr($meta_name){ //Функция для вывода массив
 	return $meta_arr_name; //выводим результат
 }
 
+/* php в постах или страницах WordPress: [exec]код[/exec]
+----------------------------------------------------------------- */
+function exec_php($matches){
+	eval('ob_start();'.$matches[1].'$inline_execute_output = ob_get_contents();ob_end_clean();');
+	return $inline_execute_output;
+}
+function inline_php($content){
+	$content = preg_replace_callback('/\[exec\]((.|\n)*?)\[\/exec\]/', 'exec_php', $content);
+	$content = preg_replace('/\[exec off\]((.|\n)*?)\[\/exec\]/', '$1', $content);
+	return $content;
+}
+add_filter('the_content', 'inline_php', 0);
+
 ?>
