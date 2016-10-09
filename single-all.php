@@ -13,7 +13,14 @@ get_header(); // подключаем header.php ?>
 					<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>> <?php // контэйнер с классами и id ?>
 						<h1 class="text-center"><?php the_title(); // заголовок поста ?></h1>
 						<p class="text-center">
-						<?php the_post_thumbnail();//миниатюра ?>
+						<?php
+							//должно находится внутри цикла, проверка есть ли миниатюра
+							if( has_post_thumbnail() ) {
+								the_post_thumbnail();
+							} else {
+								echo '<img src="'. get_template_directory_uri() .'/img/logo.png" />';
+							}
+							?>
 						</p>
 
 						<dl class="dl-horizontal">
