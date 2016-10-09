@@ -62,7 +62,7 @@
         </div>
 
         <div class="category__item">
-            <a href="<?php echo home_url( '/' ) ?>category/zakupka/konika-minolta/"><img<?php echo get_template_directory_uri(); ?> src/list-item="/konika.png" alt="KONIKA MINOLTA"></a>
+            <a href="<?php echo home_url( '/' ) ?>category/zakupka/konika-minolta/"><img src="<?php echo get_template_directory_uri(); ?>/img/list-item/konika.png" alt="KONIKA MINOLTA"></a>
         </div>
 
     <div class="g-clear"></div>

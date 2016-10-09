@@ -274,8 +274,9 @@ header .col-md-4:not(:first-child) {
 }
 .b-category_gal .category__item {
     margin-right: 10px;
+    margin-bottom:10px;
     display: inline-block;
-    vertical-align: top;
+/*     vertical-align: top; */
     width: 158px;
     overflow: hidden;
 }
