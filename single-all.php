@@ -27,11 +27,6 @@ get_header(); // подключаем header.php ?>
   							<dt>Артикул:</dt>
   							<dd><?php echo get_field('articul'); //цена?></dd>
 
-  							<dt>Производитель:</dt>
-  							<dd><?php echo get_field('made_in'); //цена?></dd>
-
-  							<dt>Тип картриджа:</dt>
-  							<dd><?php echo get_field('tip'); //цена?></dd>
 						</dl>
 						<div class="meta">
 							<p>Категории: <?php the_category(',') ?></p> <?php // ссылки на категории в которых опубликован пост, через зпт ?>
@@ -40,10 +35,6 @@ get_header(); // подключаем header.php ?>
 					</article>
 				<?php endwhile; // конец цикла ?>
 				<hr>
-				<ul class="pager">
-				  <li class="previous"><?php previous_post_link('%link', '<- Предыдущий пост: %title', TRUE); // ссылка на предыдущий пост ?> </li>
-				  <li class="next"><?php next_post_link('%link', 'Следующий пост: %title ->', TRUE); // ссылка на следующий пост ?> </li>
-				</ul>
 			</div>
 			<?php get_sidebar(); // подключаем sidebar.php ?>
 		</div>
