@@ -115,3 +115,9 @@
 	<?php if( is_front_page() ) { //Если главная страница, отобразить карусель
 	get_template_part( 'carousel' );}
 ?>
+
+	<div class="clearfix"></div>
+
+	<?php if( is_front_page() ) { //Если главная страница, отобразить карусель
+	get_template_part( 'list-item' );}
+?>

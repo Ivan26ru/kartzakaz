@@ -242,3 +242,44 @@ header .col-md-4:not(:first-child) {
 .navbar-form .form-control{
     width:150px;
 }
+
+/*list item значки принтеров*/
+.b-category_gal {
+    margin-right: -15px;
+    text-align: center;
+}
+.b-category_gal a,
+.b-category_gal a:visited {
+    display: block;
+    background: rgb(236,239,241);
+    background: -moz-linear-gradient(top,  rgba(236,239,241,1) 0%, rgba(210,215,220,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(236,239,241,1)), color-stop(100%,rgba(210,215,220,1)));
+    background: -webkit-linear-gradient(top,  rgba(236,239,241,1) 0%,rgba(210,215,220,1) 100%);
+    background: -o-linear-gradient(top,  rgba(236,239,241,1) 0%,rgba(210,215,220,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(236,239,241,1) 0%,rgba(210,215,220,1) 100%);
+    background: linear-gradient(to bottom,  rgba(236,239,241,1) 0%,rgba(210,215,220,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eceff1', endColorstr='#d2d7dc',GradientType=0 );
+    text-decoration: none;
+}
+.b-category_gal a:hover,
+.b-category_gal a:active {
+    background: rgb(124,124,124);
+    background: -moz-linear-gradient(top,  rgba(124,124,124,1) 0%, rgba(38,38,38,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(124,124,124,1)), color-stop(100%,rgba(38,38,38,1)));
+    background: -webkit-linear-gradient(top,  rgba(124,124,124,1) 0%,rgba(38,38,38,1) 100%);
+    background: -o-linear-gradient(top,  rgba(124,124,124,1) 0%,rgba(38,38,38,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(124,124,124,1) 0%,rgba(38,38,38,1) 100%);
+    background: linear-gradient(to bottom,  rgba(124,124,124,1) 0%,rgba(38,38,38,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c7c7c', endColorstr='#262626',GradientType=0 );
+}
+.b-category_gal .category__item {
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: 158px;
+    overflow: hidden;
+}
+.b-category_gal .category__item img {
+    vertical-align: middle;
+}
+/*-------------------------------*/
