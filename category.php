@@ -24,7 +24,7 @@ get_header(); // подключаем header.php ?>
 				?>
 					<?php get_template_part('loop-kart'); // для отображения каждой записи берем шаблон loop.php ?>
 				<?php endwhile; // конец цикла
-				else: echo '<p>Нет записей.</p>'; endif; // если записей нет, напишим "простите" ?>
+				else: echo '<p>Цены на картриджи '; single_cat_title(); echo ' по запросу.</p>'; endif; // если записей нет, напишим "простите" ?>
 				</table>
 <!-- /таблица для вывода списка картриджей -->
 				<?php //pagination(); // пагинация, функция нах-ся в function.php ?>
