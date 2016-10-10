@@ -24,7 +24,9 @@ h6,
 .h3,
 .h4,
 .h5,
-.h6 {
+.h6,
+p,
+.label {
     font-family: Arial, sans-serif;
 }
 
@@ -306,5 +308,6 @@ header .col-md-4:not(:first-child) {
 .b-category_gal .category__item img {
     vertical-align: middle;
 }
+
 
 /*-------------------------------*/
