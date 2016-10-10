@@ -25,19 +25,20 @@ get_header(); // подключаем header.php ?>
 
 						<dl class="dl-horizontal">
 
+  							<dt>Фирма:</dt>
+  							<dd><?php the_category(',');// фипма?></dd>
+
   							<dt>Цена:</dt>
-  							<dd><?php echo get_field('cena'); //цена?> руб.</dd>
+  							<dd><h4><span class="label label-info"><?php echo get_field('cena'); //цена?> руб.</span></h4></dd>
 
   							<dt>Принтер:</dt>
-  							<dd><?php echo get_field('printer'); //цена?></dd>
+  							<dd><h4><span class="label label-info"><?php echo get_field('printer'); //принтер?></span></h4></dd>
 
   							<dt>Артикул:</dt>
-  							<dd><?php echo get_field('articul'); //цена?></dd>
+  							<dd><h4><span class="label label-info"><?php echo get_field('articul'); //артикул?></span></h4></dd>
 
 						</dl>
-						<div class="meta">
-							<p>Категории: <?php the_category(',') ?></p> <?php // ссылки на категории в которых опубликован пост, через зпт ?>
-						</div>
+
 						<?php the_content(); // контент ?>
 					</article>
 				<?php endwhile; // конец цикла ?>
