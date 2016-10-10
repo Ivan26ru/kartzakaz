@@ -9,10 +9,25 @@ h6 {
     margin-top: 0;
 }
 
+
 /*стандартный шрифт, чтоб цыфры не прыгали*/
-body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
-    font-family: Arial,sans-serif;
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: Arial, sans-serif;
 }
+
 
 /*размер 100%*/
 
@@ -47,7 +62,7 @@ header,
 /*отступ сверху номера телефонов и графика работы*/
 
 header .col-md-4:not(:first-child) {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 
@@ -116,13 +131,13 @@ header .col-md-4:not(:first-child) {
 
 .navbar-inverse .top-menu li a {
     transition: all 0.5s ease;
-    background:#3E3E3E;
+    background: #3E3E3E;
     color: #64d57a;
     text-decoration: none;
-        /*font-weight: inherit;*/
+    /*font-weight: inherit;*/
     /*font-style: inherit;*/
     /*font-family: inherit;*/
-    border:1px solid;
+    border: 1px solid;
     /*border-radius:5px;*/
 }
 
@@ -199,9 +214,9 @@ header .col-md-4:not(:first-child) {
 .navbar-inverse .top-menu li.active a,
 .navbar-inverse .top-menu li.active a:hover,
 .navbar-inverse .top-menu li.active a:focus {
-    color:white;
+    color: white;
     background-color: #64d57a;
-    border-color:#64d57a;
+    border-color: #64d57a;
     -webkit-animation: swing 1s ease;
     animation: swing 1s ease;
     -webkit-animation-iteration-count: 1;
@@ -238,49 +253,58 @@ header .col-md-4:not(:first-child) {
     transform: rotateZ(360deg);*/
 }
 
+
 /*строка поиска*/
-.navbar-form .form-control{
-    width:150px;
+
+.navbar-form .form-control {
+    width: 150px;
 }
 
+
 /*list item значки принтеров*/
+
 .b-category_gal {
     margin-right: -15px;
     text-align: center;
 }
+
 .b-category_gal a,
 .b-category_gal a:visited {
     display: block;
-    background: rgb(236,239,241);
-    background: -moz-linear-gradient(top,  rgba(236,239,241,1) 0%, rgba(210,215,220,1) 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(236,239,241,1)), color-stop(100%,rgba(210,215,220,1)));
-    background: -webkit-linear-gradient(top,  rgba(236,239,241,1) 0%,rgba(210,215,220,1) 100%);
-    background: -o-linear-gradient(top,  rgba(236,239,241,1) 0%,rgba(210,215,220,1) 100%);
-    background: -ms-linear-gradient(top,  rgba(236,239,241,1) 0%,rgba(210,215,220,1) 100%);
-    background: linear-gradient(to bottom,  rgba(236,239,241,1) 0%,rgba(210,215,220,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eceff1', endColorstr='#d2d7dc',GradientType=0 );
+    background: rgb(236, 239, 241);
+    background: -moz-linear-gradient(top, rgba(236, 239, 241, 1) 0%, rgba(210, 215, 220, 1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(236, 239, 241, 1)), color-stop(100%, rgba(210, 215, 220, 1)));
+    background: -webkit-linear-gradient(top, rgba(236, 239, 241, 1) 0%, rgba(210, 215, 220, 1) 100%);
+    background: -o-linear-gradient(top, rgba(236, 239, 241, 1) 0%, rgba(210, 215, 220, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(236, 239, 241, 1) 0%, rgba(210, 215, 220, 1) 100%);
+    background: linear-gradient(to bottom, rgba(236, 239, 241, 1) 0%, rgba(210, 215, 220, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#eceff1', endColorstr='#d2d7dc', GradientType=0);
     text-decoration: none;
 }
+
 .b-category_gal a:hover,
 .b-category_gal a:active {
-    background: rgb(124,124,124);
-    background: -moz-linear-gradient(top,  rgba(124,124,124,1) 0%, rgba(38,38,38,1) 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(124,124,124,1)), color-stop(100%,rgba(38,38,38,1)));
-    background: -webkit-linear-gradient(top,  rgba(124,124,124,1) 0%,rgba(38,38,38,1) 100%);
-    background: -o-linear-gradient(top,  rgba(124,124,124,1) 0%,rgba(38,38,38,1) 100%);
-    background: -ms-linear-gradient(top,  rgba(124,124,124,1) 0%,rgba(38,38,38,1) 100%);
-    background: linear-gradient(to bottom,  rgba(124,124,124,1) 0%,rgba(38,38,38,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c7c7c', endColorstr='#262626',GradientType=0 );
+    background: rgb(124, 124, 124);
+    background: -moz-linear-gradient(top, rgba(124, 124, 124, 1) 0%, rgba(38, 38, 38, 1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(124, 124, 124, 1)), color-stop(100%, rgba(38, 38, 38, 1)));
+    background: -webkit-linear-gradient(top, rgba(124, 124, 124, 1) 0%, rgba(38, 38, 38, 1) 100%);
+    background: -o-linear-gradient(top, rgba(124, 124, 124, 1) 0%, rgba(38, 38, 38, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(124, 124, 124, 1) 0%, rgba(38, 38, 38, 1) 100%);
+    background: linear-gradient(to bottom, rgba(124, 124, 124, 1) 0%, rgba(38, 38, 38, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#7c7c7c', endColorstr='#262626', GradientType=0);
 }
+
 .b-category_gal .category__item {
     margin-right: 10px;
-    margin-bottom:10px;
+    margin-bottom: 10px;
     display: inline-block;
-/*     vertical-align: top; */
     width: 158px;
     overflow: hidden;
+    border-radius: 10px;
 }
+
 .b-category_gal .category__item img {
     vertical-align: middle;
 }
+
 /*-------------------------------*/
