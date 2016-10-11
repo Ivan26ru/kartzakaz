@@ -71,7 +71,7 @@
 					<nav class="navbar navbar-inverse" id="top-navbar">
 						<div class="navbar-header">
 						<a class="navbar-brand site-name-menu" href="<?php echo site_url(); ?>">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/neon-logo-mini-2.png" class="logo-img-mini dn" id="menu-top-name-siti">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/neon-logo-mini-2.png" class="logo-img-mini dn hidden-sm" id="menu-top-name-siti">
 							<!-- Скупка картриджей -->
 						</a>
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topnav" aria-expanded="false">
