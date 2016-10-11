@@ -108,10 +108,10 @@ if (!function_exists('add_styles')) { // если ф-я уже есть в до�
 	    if(is_admin()) return false; // если мы в админке - ничего не делаем
 	    wp_enqueue_style( 'bs', get_template_directory_uri().'/css/bootstrap.min.css' ); // бутстрап
 		wp_enqueue_style( 'main', get_template_directory_uri().'/style.css' ); // основные стили шаблона
-		// wp_enqueue_style( 'main-css', get_template_directory_uri().'/my-style.css'); // мои стили шаблона
+		wp_enqueue_style( 'main-css', get_template_directory_uri().'/my-style.css'); // мои стили шаблона
 
-		$date_css=date('YmdHis');
-		wp_enqueue_style( 'main-css', get_template_directory_uri().'/my-style.css?' . $date_css); // мои стили шаблона ВСЕГО ОБНОВЛЯЮТСЯ
+		//$date_css=date('YmdHis');
+		//wp_enqueue_style( 'main-css', get_template_directory_uri().'/my-style.css?' . $date_css); // мои стили шаблона ВСЕГДА ОБНОВЛЯЮТСЯ
 	}
 }
 
