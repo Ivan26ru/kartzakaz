@@ -329,3 +329,10 @@ cite{
 .blockquote-reverse, blockquote.pull-right{
     border-color:#aaa;
 }
+
+/*Значек whats-app*/
+.whats-app{
+        background: url(img/wa.png) no-repeat left center;
+        background-size:20px;
+        padding-left: 20px;
+}

@@ -43,6 +43,7 @@
 					<img src="<?php echo get_template_directory_uri(); ?>/img/header/tel.png" class="tel-img">
 					<div class="header-div-text">
 						<a href="tel:+79187959105" class="tel"><span class="glyphicon glyphicon-earphone"></span>7(918)795-91-05</a><br>
+						<a href="tel:89854357055" class="tel whats-app">8(985)435-70-55</a><br>
 						<a href="mailto:info@kartzakaz.ru">
 							<span class="glyphicon glyphicon-envelope"></span>
 							info@kartzakaz.ru</a>
