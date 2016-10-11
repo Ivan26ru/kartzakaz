@@ -34,7 +34,9 @@ foreach($catlist as $categories_item){//перебор рубрик
  }
  ?>
 <!-- </div> -->
-<img src="<?php echo get_template_directory_uri(); ?>/img/toner-color-3.jpg" alt="цветной тонер" class="hidden-xs hidden-sm" width="100%">
+<img src="<?php echo get_template_directory_uri(); ?>/img/kaplya.png" alt="цветной тонер" class="hidden-xs hidden-sm" width="100%" style="margin-top: 30px;">
+<br>
+<span class="text-success" style="font-weight: 900;">Вы ещё у нас не были? Тогда мы идём к вам!</span>
 </div>
 
 <div class="col-md-9">
