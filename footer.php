@@ -5,13 +5,12 @@
  * @subpackage your-clean-template-3
  */
 ?>
-<hr>
+<div class="clearfix"></div>
 	<footer>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 text-center">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/neon-logo-mini.png" class="w100 box-center">
-					<p class="text-success">Скупка картриджей</p>
+					<img src="<?php echo get_template_directory_uri(); ?>/img/neon-logo-mini-2.png" class="w100 box-center">
 				</div>
 				<div class="col-md-7">
 
@@ -26,7 +25,7 @@
 						<a href="mailto:info@kartzakaz.ru">
 							<span class="glyphicon glyphicon-envelope"></span>
 							info@kartzakaz.ru</a>
-						<p><b>покупка картриджей</b><br>
+						<p>покупка картриджей<br>
 						оптом и в розницу</p>
 					</div>
 				</div>

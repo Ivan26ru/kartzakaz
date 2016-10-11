@@ -311,3 +311,21 @@ header .col-md-4:not(:first-child) {
 
 
 /*-------------------------------*/
+/*footer*/
+footer{
+    margin-top: 10px;
+    padding-top: 20px;
+    background-color: #585858;
+    color:white;
+}
+
+footer a,
+footer a:hover,
+footer a:focus,
+cite{
+    color:white;
+}
+
+.blockquote-reverse, blockquote.pull-right{
+    border-color:#aaa;
+}
