@@ -115,7 +115,7 @@ header .col-md-4:not(:first-child) {
     font-weight: 600;
     font-size: 40px;
     text-transform: uppercase;
-    text-shadow: -0 -2px 0 #9E9E9E, 0 -2px 0 #9E9E9E, -0 2px 0 #9E9E9E, 0 2px 0 #9E9E9E, -2px -0 0 #9E9E9E, 2px -0 0 #9E9E9E, -2px 0 0 #9E9E9E, 2px 0 0 #9E9E9E, -1px -2px 0 #9E9E9E, 1px -2px 0 #9E9E9E, -1px 2px 0 #9E9E9E, 1px 2px 0 #9E9E9E, -2px -1px 0 #9E9E9E, 2px -1px 0 #9E9E9E, -2px 1px 0 #9E9E9E, 2px 1px 0 #9E9E9E, -2px -2px 0 #9E9E9E, 2px -2px 0 #9E9E9E, -2px 2px 0 #9E9E9E, 2px 2px 0 #9E9E9E, -2px -2px 0 #9E9E9E, 2px -2px 0 #9E9E9E, -2px 2px 0 #9E9E9E, 2px 2px 0 #9E9E9E;
+    text-shadow: -0 -2px 0 #000000, 0 -2px 0 #000000, -0 2px 0 #000000, 0 2px 0 #000000, -2px -0 0 #000000, 2px -0 0 #000000, -2px 0 0 #000000, 2px 0 0 #000000, -1px -2px 0 #000000, 1px -2px 0 #000000, -1px 2px 0 #000000, 1px 2px 0 #000000, -2px -1px 0 #000000, 2px -1px 0 #000000, -2px 1px 0 #000000, 2px 1px 0 #000000, -2px -2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, 2px 2px 0 #000000, -2px -2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, 2px 2px 0 #000000;
 }
 
 .carousel p {
