@@ -9,17 +9,20 @@
 	<footer>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3 text-center">
+				<div class="col-md-3 col-lg-3 text-center">
 					<img src="<?php echo get_template_directory_uri(); ?>/img/neon-logo-mini-2.png" class="w100 box-center">
 				</div>
-				<div class="col-md-7">
+				<div class="visible-lg col-lg-2 text-center">
+					<img src="http://kartzakaz.vsvetlograde.ru/wp-content/themes/kartzakaz/img/footer.png" class="w100 box-center">
+				</div>
+				<div class="col-md-7 col-lg-5">
 
 <blockquote class="blockquote-reverse">
   <p>Клиент не может быть просто удовлетворен.<br>Клиент должен быть доволен!</p>
   <small><cite title="Source Title">Майкл Делл.</cite></small>
 </blockquote>
 				</div>
-				<div class="col-md-2">
+				<div class="col-md-2 col-lg-2">
 					<div class="text-right">
 						<a href="tel:+79187959105" class="tel"><span class="glyphicon glyphicon-earphone"></span>7(918)795-91-05</a><br>
 						<a href="tel:89854357055" class="tel whats-app">8(985)435-70-55</a><br>
