@@ -35,7 +35,7 @@
                 <div class="item">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/slider-karusel/3.jpg" width="100%">
                     <div class="carousel-caption">
-                      	<h3>ИНДИВИДУАЛЬНЫЙ ПОДХОД К КАЖДОМУ КЛИЕНТУ.</h3>
+                      	<h3>ИНДИВИДУАЛЬНЫЙ ПОДХОД К КАЖДОМУ КЛИЕНТУ</h3>
 					<!--<h3>LOREM IPSUM DOLOR</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque sint earum officiis adipisci, quis blanditiis. Iste modi laboriosam natus, odio!</p> -->
                     </div>
