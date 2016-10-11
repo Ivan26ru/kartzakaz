@@ -39,7 +39,7 @@
 				<!-- <p class="text-center text-success skupka">Скупка картриджей</p> -->
 			</div>
 
-			<div class="col-md-4 col-sm-6">
+			<div class="col-lg-offset-2 col-lg-3 col-md-4 col-sm-6">
 					<img src="<?php echo get_template_directory_uri(); ?>/img/header/tel.png" class="tel-img">
 					<div class="header-div-text">
 						<a href="tel:+79187959105" class="tel"><span class="glyphicon glyphicon-earphone"></span>7(918)795-91-05</a><br>
@@ -51,7 +51,7 @@
 					</div>
 			</div>
 
-			<div class="col-md-4 col-sm-6">
+			<div class="col-lg-3 col-md-4 col-sm-6">
 				<img src="<?php echo get_template_directory_uri(); ?>/img/header/time-work.png" class="tel-img">
 				<div class="header-div-text">
 					<p>График работы:</p>
@@ -94,7 +94,7 @@
 							?>
 <!-- кнопки справа-->
 		                            <!-- добавил другую форму для поиска, чтоб с главной всегда искало и метод get -->
-                            <form class="navbar-form navbar-right" id="search_string" method="get" role="search" action="<?php echo home_url( '/' ) ?>" >
+                            <form class="navbar-form navbar-right visible-lg" id="search_string" method="get" role="search" action="<?php echo home_url( '/' ) ?>" >
                             <!-- сама форма поиска -->
                             <?php get_search_form() ?>
                             </form>
@@ -106,8 +106,11 @@
 		<!-- </div> -->
 		<!-- container -->
 	</header>
-		<div class="container-fluid">
-
+		<div class="container">
+                            <form class="navbar-form navbar-right hidden-lg" id="search_string" method="get" role="search" action="<?php echo home_url( '/' ) ?>" >
+                            <!-- сама форма поиска -->
+                            <?php get_search_form() ?>
+                            </form>
 	</div>
 
 	<div class="clearfix"></div>
