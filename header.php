@@ -47,7 +47,7 @@
 						<a href="mailto:kartzakaz26@mail.ru">
 							<span class="glyphicon glyphicon-envelope"></span>
 							kartzakaz26@mail.ru</a>
-						<p><b>покупка картриджей</b><br>
+						<p>оптом и в розницу</p>
 					</div>
 			</div>
 

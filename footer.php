@@ -28,8 +28,7 @@
 						<a href="tel:89854357055" class="tel whats-app">8(985)435-70-55</a><br>
 						<a href="mailto:kartzakaz26@mail.ru">
 							<span class="glyphicon glyphicon-envelope"></span>kartzakaz26@mail.ru</a>
-						<p>покупка картриджей<br>
-						оптом и в розницу</p>
+						<p>оптом и в розницу</p>
 					</div>
 				</div>
 					<?php $args = array( // опции для вывода нижнего меню, чтобы они работали, меню должно быть создано в админке
