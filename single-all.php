@@ -18,7 +18,7 @@ get_header(); // подключаем header.php ?>
 							if( has_post_thumbnail() ) {
 								the_post_thumbnail();
 							} else {
-								echo '<img src="'. get_template_directory_uri() .'/img/logo.png" />';
+								echo '<img style="width: 50%" src="'. get_template_directory_uri() .'/img/logo.png" />';
 							}
 							?>
 						</p>

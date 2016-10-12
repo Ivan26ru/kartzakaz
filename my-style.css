@@ -41,7 +41,7 @@ p,
 /*скрыть элемент*/
 
 body .dn {
-    display: none;
+    display: none!important;
 }
 
 

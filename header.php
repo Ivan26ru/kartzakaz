@@ -44,9 +44,9 @@
 					<div class="header-div-text">
 						<a href="tel:+79187959105" class="tel"><span class="glyphicon glyphicon-earphone"></span>7(918)795-91-05</a><br>
 						<a href="tel:89854357055" class="tel whats-app">8(985)435-70-55</a><br>
-						<a href="mailto:info@kartzakaz.ru">
+						<a href="mailto:kartzakaz26@mail.ru">
 							<span class="glyphicon glyphicon-envelope"></span>
-							info@kartzakaz.ru</a>
+							kartzakaz26@mail.ru</a>
 						<p><b>покупка картриджей</b><br>
 					</div>
 			</div>
@@ -70,9 +70,8 @@
 					<!-- <nav class="navbar navbar-default"> -->
 					<nav class="navbar navbar-inverse" id="top-navbar">
 						<div class="navbar-header">
-						<a class="navbar-brand site-name-menu" href="<?php echo site_url(); ?>">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/neon-logo-mini-2.png" class="logo-img-mini dn hidden-sm" id="menu-top-name-siti">
-							<!-- Скупка картриджей -->
+						<a class="navbar-brand site-name-menu dn hidden-sm"  id="menu-top-name-siti" href="<?php echo site_url(); ?>">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/neon-logo-mini-2.png" class="logo-img-mini">
 						</a>
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topnav" aria-expanded="false">
 								<span class="sr-only">Меню</span>
